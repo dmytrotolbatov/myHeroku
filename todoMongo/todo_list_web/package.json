@@ -1,0 +1,20 @@
+{
+  "name": "tod_list_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimon",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "connect": "^3.5.0",
+    "jquery": "^3.1.1",
+    "ng-dialog": "^0.6.6",
+    "serve-static": "^1.11.2"
+  }
+}

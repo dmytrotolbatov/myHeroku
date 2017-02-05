@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script src="/jquery.js"></script>
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="selected-tags">Selected tags: <span id="selectedItems"></span></div>
+
+    <div class="autoComplete-wrapper">
+        <input type="text" id="autoComplete">
+    </div>
+
+    <div class="container">
+
+
+        <p id="result"></p>
+    </div>
+
+
+    <style>
+        ul li.active {
+            background-color: rgba(0,0,0,0.2);
+        }
+
+        .selected-tags span {
+            margin-right: 10px;
+        }
+
+        .container {
+            height:200px;
+            border-color:black;
+            overflow:auto;
+        }
+        li {
+            outline: none;
+            cursor: default;
+        }
+    </style>
+ <script src="appSearch.js"></script>
+</body>
+</html>
